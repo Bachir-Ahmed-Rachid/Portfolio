@@ -1,6 +1,5 @@
 import React from 'react'
 import about from '../img/about.jpeg'
-
 const About = () => {
   return (
     <div id="about" class="section">

@@ -2,70 +2,68 @@ import React from 'react'
 
 const Stats = () => {
   return (
-    <div id="stats" class="statsSection section">
+    <div id="stats" className="statsSection section">
 
-    <div class="container">
+    <div className="container">
 
-        <div class="row">
+        <div className="row">
 
 
-            <div class="col-md-3 col-sm-6">
-                <div class="squareItem">
-                    <div class="squareInnerContainer">
-                        <div class="squareIcon">
-                            <i class="fa fa-clock"></i>
+            <div className="col-md-3 col-sm-6">
+                <div className="squareItem">
+                    <div className="squareInnerContainer">
+                        <div className="squareIcon">
+                            <i className="fa fa-clock"></i>
                         </div>
-                        <div class="squareContent">
-                            <h2 class="counter">1</h2>
+                        <div className="squareContent">
+                            <h2 className="counter">2</h2>
                             <h3>Years Experience</h3>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6">
-                <div class="squareItem">
-                    <div class="squareInnerContainer">
-                        <div class="squareIcon">
-                            <i class="fa fa-calendar"></i>
+            <div className="col-md-3 col-sm-6">
+                <div className="squareItem">
+                    <div className="squareInnerContainer">
+                        <div className="squareIcon">
+                            <i className="fa fa-user"></i>
                         </div>
-                        <div class="squareContent">
-                            <h2 class="counter">1</h2>
+                        <div className="squareContent">
+                            <h2 className="counter">3</h2>
                             <h3>Clients</h3>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6">
-                <div class="squareItem">
-                    <div class="squareInnerContainer">
-                        <div class="squareIcon">
-                            <i class="fa fa-bolt"></i>
+            <div className="col-md-3 col-sm-6">
+                <div className="squareItem">
+                    <div className="squareInnerContainer">
+                        <div className="squareIcon">
+                            <i className="fa fa-bolt"></i>
                         </div>
-                        <div class="squareContent">
-                            <h2 class="counter">6</h2>
-                            <h3>Optimization Algorithmes</h3>
+                        <div className="squareContent">
+                            <h2 className="counter">6</h2>
+                            <h3>Optimization Algorithms</h3>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6">
-                <div class="squareItem">
-                    <div class="squareInnerContainer">
-                        <div class="squareIcon">
-                            <i class="fa fa-cloud"></i>
+            <div className="col-md-3 col-sm-6">
+                <div className="squareItem">
+                    <div className="squareInnerContainer">
+                        <div className="squareIcon">
+                            <i className="fa fa-code"></i>
                         </div>
-                        <div class="squareContent">
-                            <h2 class="counter">3</h2>
+                        <div className="squareContent">
+                            <h2 className="counter">3</h2>
                             <h3>Websites Made</h3>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
 
     </div>

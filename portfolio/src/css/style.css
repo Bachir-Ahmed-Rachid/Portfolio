@@ -5,6 +5,10 @@ body {
     letter-spacing: 1px;
 }
 
+a, u {
+	text-decoration: none;
+  }
+
 .overlay {
 	width: 100%;
 	height: 100%;
