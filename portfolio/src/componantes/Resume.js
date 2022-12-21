@@ -1,12 +1,12 @@
 import React from 'react';
 import { SolutionOutlined ,FieldTimeOutlined,GlobalOutlined} from '@ant-design/icons';
-import { Breadcrumb, Layout, Menu, theme } from 'antd';
-import {Link, Route,Routes, useLocation} from "react-router-dom"
+import { Layout, Menu, theme } from 'antd';
+import {Link, Route,Routes, } from "react-router-dom"
 import Education from './Resume/Education'
 import Work from './Resume/Work'
 import Language from './Resume/Language'
 
-const { Header, Content, Sider } = Layout;
+const {  Content, Sider } = Layout;
 
 
   const items1 = [
@@ -79,9 +79,11 @@ const Resume = () => {
             style={{
               padding: 24,
               margin: 0,
-              minHeight: 280,            }}
+              minHeight: 280,            
+            }}
           >
              <Routes>
+                <Route path='/' element={<Education/>} exact/>
                 <Route path='/education' element={<Education/>} exact/>
                 <Route path='/work' element={<Work/>} exact/>
                 <Route path='/language' element={<Language/>} exact/>

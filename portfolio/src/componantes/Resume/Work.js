@@ -11,7 +11,7 @@ const Work = () => {
     <Col md={3}><h6 className='p-3 mb-2 bg-danger text-white rounded-pill text-center'>2022-</h6></Col>
     <hr/>
     <Col md={9}><h5>System information consulting</h5><p>IST PARTNER</p></Col>
-    <Col md={3}><h6 className='p-3 mb-2 bg-danger text-white rounded-pill text-center'>2022-</h6></Col>
+    <Col md={3}><h6 className='p-3 mb-2 bg-danger text-white rounded-pill text-center'>2022</h6></Col>
    
     <hr/>
     <Col md={8}><h5>Freight transport planning</h5><p>Anderson Logistics</p></Col>

@@ -1,7 +1,6 @@
 import About from "./componantes/About";
 import Contact from "./componantes/Constact";
 import Copyright from "./componantes/Copyright";
-import Loader from "./componantes/Loader";
 import Nav from "./componantes/Nav";
 import Portfolio from "./componantes/Portfolio";
 import Resume from "./componantes/Resume";

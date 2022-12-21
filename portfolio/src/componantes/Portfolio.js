@@ -7,17 +7,18 @@ import hbpp from '../img/portfolio/hbpp.png'
 import KickStarter from '../img/portfolio/Kickstarter.jpg'
 import LocalSearch from '../img/portfolio/localSearch.png'
 import OptiLog from '../img/portfolio/OptiLog.JPG'
-import Skills from './Skills'
+import Proshop from '../img/portfolio/Proshop.png'
 const Portfolio = () => {
-    const portfolios=[
+    const portfolios=[        
+        {filtre:'websites',src:Proshop,title:"Proshop",link:"https://github.com/Bachir-Ahmed-Rachid/Proshop-E-Commerce-App"},
+        {filtre:'websites',src:GFVehicules,title:"GF-Vehicules",link:"https://github.com/Bachir-Ahmed-Rachid/GF-Vehicules-"},
+        {filtre:'websites',src:OptiLog,title:"OptiLog",link:"https://user-images.githubusercontent.com/99692801/175486542-92e7b28b-1dbe-4b44-aba4-bdcde2ce551d.mp4"},
         {filtre:'algo',src:antcolony,title:"Ant-colony-optimization",link:"https://github.com/Bachir-Ahmed-Rachid/Ant-colony-optimization-for-travelling-salesman-problem-"},
         {filtre:'algo',src:BinPaking,title:"Bin-Paking-Problem",link:"https://github.com/Bachir-Ahmed-Rachid/Bin-Paking-Problem"},
         {filtre:'algo',src:FFD,title:"First-Fit-Decreasing-Algorithme",link:"https://github.com/Bachir-Ahmed-Rachid/First-Fit-Decreasing-Algorithme"},
-        {filtre:'websites',src:GFVehicules,title:"GF-Vehicules",link:"https://user-images.githubusercontent.com/99692801/175486421-c1554c6a-6218-4414-9b36-af5c25a06af5.mp4"},
         {filtre:'websites',src:KickStarter,title:"Kickstarter",link:"https://user-images.githubusercontent.com/99692801/175102832-1d7e22a5-6df4-4f09-8cde-8556da32bd85.mp4"},
         {filtre:'algo',src:LocalSearch,title:"Local-search-algorithm",link:"https://github.com/Bachir-Ahmed-Rachid/Local-search-algorithm"},
         {filtre:'algo',src:hbpp,title:"Heterogeneous bin paking problem",link:"https://github.com/Bachir-Ahmed-Rachid/Heterogeneous-bin-packing-problem-"},
-        {filtre:'websites',src:OptiLog,title:"OptiLog",link:"https://user-images.githubusercontent.com/99692801/175486542-92e7b28b-1dbe-4b44-aba4-bdcde2ce551d.mp4"}
     ]
   return (
     <div id="portfolio" class="section">
@@ -58,7 +59,7 @@ const Portfolio = () => {
 
                              <div className="item">
      
-                                 <img style={{height: '306px', width:'320px'}} src={portfolio.src}/>
+                                 <img style={{height: '306px', width:'100%'}} src={portfolio.src}/>
      
      
                                  <div className="icons">
